@@ -25,8 +25,8 @@ defmodule Pkcs5.Mixfile do
   defp package do
     [
       name: "PKCS5",
-      files: ["lib", "src", "mix.exs", "README*"],
-      contributors: ["Son Thai", "Vuong Thang"],
+      files: ["lib", "src", "mix.exs", "readme*"],
+      maintainers: ["Son Thai", "Vuong Thang"],
       licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/sonttt9/pkcs5.git"}
     ]
