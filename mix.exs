@@ -8,7 +8,7 @@ defmodule Pkcs5.Mixfile do
      description: "PKCS5 binary padding for erlang",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     # package: package,
+     package: package,
      deps: deps]
   end
 
@@ -37,10 +37,10 @@ defmodule Pkcs5.Mixfile do
     []
   end
 
-  # defp package do
-  #   [files: ["lib", "src", "mix.exs", "README*"],
-  #    contributors: ["Vuong Thang"],
-  #    licenses: ["MIT"],
-  #    links: %{"GitHub" => "https://github.com/sonttt9/pkcs5.git"}]
-  # end
+  defp package do
+    [files: ["lib", "src", "mix.exs", "README*"],
+     contributors: ["Vuong Thang"],
+     licenses: ["MIT"],
+     links: %{"GitHub" => "https://github.com/sonttt9/pkcs5.git"}]
+  end
 end
