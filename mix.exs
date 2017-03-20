@@ -19,12 +19,14 @@ defmodule Pkcs5.Mixfile do
   end
 
   defp deps do
-    []
+    [
+      {:ex_doc, "~> 0.15.0", only: :dev}
+    ]
   end
 
   defp package do
     [
-      name: "PKCS5",
+      name: :pkcs5,
       files: ["lib", "src", "mix.exs", "readme*"],
       maintainers: ["Son Thai", "Vuong Thang"],
       licenses: ["MIT"],
