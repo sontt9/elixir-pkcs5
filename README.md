@@ -9,7 +9,7 @@ by adding `pkcs5` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
-  [{:pkcs5, "~> 0.1.0"}]
+  [{:pkcs5, "~> 1.0.0"}]
 end
 ```
 
